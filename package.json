@@ -4,11 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:frontend": "cd health-tracking-frontend && npm start",
-    "start:backend": "npx nodemon app.js",
-    "build": "cd health-tracking-frontend && npm install && npm run build",
-    "start": "npm i && npm run start:backend",
-    "start:prod": "npm i && node app.js"
+    "start":"npm i && npx nodemon app.js",
+    "build": "npm i && cd HealthTrackingApp-clinix && npm start"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +17,7 @@
     "express": "^4.21.0",
     "mongoose": "^8.6.2",
     "cors": "^2.8.5"
+
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
