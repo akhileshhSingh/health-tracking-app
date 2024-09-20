@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"npm i && npx nodemon app.js",
-    "build": "npm i && cd HealthTrackingApp-clinix && npm start"
+    "build": "npm i && npm start"
   },
   "keywords": [],
   "author": "",
