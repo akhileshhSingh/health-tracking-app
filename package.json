@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:frontend": "cd health-tracking-frontend && npm start", 
+    "start:backend": "npx nodemon app.js",  
+    "build": "cd health-tracking-frontend && npm install && npm run build",
+    "start:prod": "npm run build && node app.js"  
   },
   "keywords": [],
   "author": "",
