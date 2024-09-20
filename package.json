@@ -4,10 +4,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:frontend": "cd health-tracking-frontend && npm start", 
-    "start:backend": "npx nodemon app.js",  
+    "start:frontend": "cd health-tracking-frontend && npm start",
+    "start:backend": "npx nodemon app.js",
     "build": "cd health-tracking-frontend && npm install && npm run build",
-    "start:prod": "node app.js"  
+    "start": "npm run start:backend",
+    "start:prod": "node app.js"
   },
   "keywords": [],
   "author": "",
